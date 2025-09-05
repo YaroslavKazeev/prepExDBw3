@@ -1,0 +1,23 @@
+{
+  "name": "prep_ex_week2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/YaroslavKazeev/prepExDBw2#readme",
+  "bugs": {
+    "url": "https://github.com/YaroslavKazeev/prepExDBw2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroslavKazeev/prepExDBw2.git"
+  },
+  "license": "ISC",
+  "author": "Yaroslav Kazeev",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}
