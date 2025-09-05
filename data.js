@@ -52,13 +52,13 @@ export const steps = [
   { step_id: 4, step_content: "Add the mix to the pie crust" },
   { step_id: 5, step_content: "Spread the Cherry Jam" },
   { step_id: 6, step_content: "Place in refrigerator for 3h" },
-  
+
   // Roasted Brussels Sprouts steps
   { step_id: 7, step_content: "Preheat the oven" },
   { step_id: 8, step_content: "Mix the ingredients in a bowl" },
   { step_id: 9, step_content: "Spread the mix on baking sheet" },
   { step_id: 10, step_content: "Bake for 30'" },
-  
+
   // Mac & Cheese steps
   { step_id: 11, step_content: "Cook Macaroni for 8'" },
   { step_id: 12, step_content: "Melt butter in a saucepan" },
@@ -67,7 +67,7 @@ export const steps = [
   { step_id: 15, step_content: "Cook until mix is smooth" },
   { step_id: 16, step_content: "Add cheddar cheese" },
   { step_id: 17, step_content: "Add the macaroni" },
-  
+
   // Tamagoyaki Japanese Omelette steps
   { step_id: 18, step_content: "Beat the eggs" },
   { step_id: 19, step_content: "Add soya sauce, sugar and salt" },
@@ -75,10 +75,8 @@ export const steps = [
   { step_id: 21, step_content: "Bring to medium heat" },
   { step_id: 22, step_content: "Add some mix to the sauce pan" },
   { step_id: 23, step_content: "Let it cook for 1'" },
-  { step_id: 24, step_content: "Add oil to a sauce pan" },
-  { step_id: 25, step_content: "Add some mix to the sauce pan" },
-  { step_id: 26, step_content: "Let it cook for 1'" },
-  { step_id: 27, step_content: "Remove pan from fire" }
+  { step_id: 24, step_content: "Add some mix to the sauce pan" },
+  { step_id: 25, step_content: "Remove pan from fire" },
 ];
 
 export const recipeSteps = [
@@ -89,13 +87,13 @@ export const recipeSteps = [
   { step_number: 4, recipe_id: 1, step_id: 4 },
   { step_number: 5, recipe_id: 1, step_id: 5 },
   { step_number: 6, recipe_id: 1, step_id: 6 },
-  
+
   // Roasted Brussels Sprouts steps (recipe_id: 2)
   { step_number: 1, recipe_id: 2, step_id: 7 },
   { step_number: 2, recipe_id: 2, step_id: 8 },
   { step_number: 3, recipe_id: 2, step_id: 9 },
   { step_number: 4, recipe_id: 2, step_id: 10 },
-  
+
   // Mac & Cheese steps (recipe_id: 3)
   { step_number: 1, recipe_id: 3, step_id: 11 },
   { step_number: 2, recipe_id: 3, step_id: 12 },
@@ -104,7 +102,7 @@ export const recipeSteps = [
   { step_number: 5, recipe_id: 3, step_id: 15 },
   { step_number: 6, recipe_id: 3, step_id: 16 },
   { step_number: 7, recipe_id: 3, step_id: 17 },
-  
+
   // Tamagoyaki Japanese Omelette steps (recipe_id: 4)
   { step_number: 1, recipe_id: 4, step_id: 18 },
   { step_number: 2, recipe_id: 4, step_id: 19 },
@@ -112,10 +110,10 @@ export const recipeSteps = [
   { step_number: 4, recipe_id: 4, step_id: 21 },
   { step_number: 5, recipe_id: 4, step_id: 22 },
   { step_number: 6, recipe_id: 4, step_id: 23 },
-  { step_number: 7, recipe_id: 4, step_id: 24 },
-  { step_number: 8, recipe_id: 4, step_id: 25 },
-  { step_number: 9, recipe_id: 4, step_id: 26 },
-  { step_number: 10, recipe_id: 4, step_id: 27 }
+  { step_number: 7, recipe_id: 4, step_id: 20 },
+  { step_number: 8, recipe_id: 4, step_id: 24 },
+  { step_number: 9, recipe_id: 4, step_id: 23 },
+  { step_number: 10, recipe_id: 4, step_id: 25 },
 ];
 
 export const ingredients = [
@@ -141,27 +139,26 @@ export const ingredients = [
 
 export const recipeStepIngredients = [
   // No-Bake Cheesecake steps (recipe_id: 1)
-  { step_id: 1, ingredient_id: 6 },  // Cream Cheese
-  { step_id: 2, ingredient_id: 5 },  // Condensed milk
-  { step_id: 3, ingredient_id: 9 },  // Lemon Juice
+  { step_id: 1, ingredient_id: 6 }, // Cream Cheese
+  { step_id: 2, ingredient_id: 5 }, // Condensed milk
+  { step_id: 3, ingredient_id: 9 }, // Lemon Juice
   { step_id: 4, ingredient_id: 14 }, // Pie Crust
-  { step_id: 5, ingredient_id: 3 },  // Cherry Jam
+  { step_id: 5, ingredient_id: 3 }, // Cherry Jam
 
   // Mac & Cheese steps (recipe_id: 3)
   { step_id: 11, ingredient_id: 10 }, // Macaroni
-  { step_id: 12, ingredient_id: 1 },  // Butter
-  { step_id: 13, ingredient_id: 8 },  // Flour
+  { step_id: 12, ingredient_id: 1 }, // Butter
+  { step_id: 13, ingredient_id: 8 }, // Flour
   { step_id: 13, ingredient_id: 15 }, // Salt
   { step_id: 13, ingredient_id: 13 }, // Pepper
   { step_id: 14, ingredient_id: 11 }, // Milk
-  { step_id: 16, ingredient_id: 4 },  // Shredded Cheddar cheese
+  { step_id: 16, ingredient_id: 4 }, // Shredded Cheddar cheese
   { step_id: 17, ingredient_id: 10 }, // Macaroni
 
   // Tamagoyaki Japanese Omelette steps (recipe_id: 4)
-  { step_id: 18, ingredient_id: 7 },  // Eggs
+  { step_id: 18, ingredient_id: 7 }, // Eggs
   { step_id: 19, ingredient_id: 17 }, // Soy sauce
   { step_id: 19, ingredient_id: 18 }, // Sugar
   { step_id: 19, ingredient_id: 15 }, // Salt
   { step_id: 20, ingredient_id: 12 }, // Olive oil
-  { step_id: 24, ingredient_id: 12 }  // Olive oil (second occurrence)
 ];
